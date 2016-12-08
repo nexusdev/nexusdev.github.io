@@ -1,32 +1,57 @@
 <!doctype html>
 <meta charset=utf-8>
-<title>Nexus | Blockchain R&D firm</title>
+<meta name=viewport content=width=device-width>
+<title> Nexus Development | Blockchain R&D firm </title>
 <link rel=stylesheet href=css/font-awesome.css>
-<link rel=stylesheet href=https://fonts.googleapis.com/css?family=Catamaran>
-<style>
-html { font: 20pt/1.5 Catamaran, sans-serif; }
-body { margin: 7rem auto; max-width: 33rem; font-size: 1.1rem; }
-a { text-decoration: none; border-bottoem: 1px solid currentcolor; }
-a { color: #6660a0; }
-a:hover { color: red }
-</style>
-<div align=center style="float: left; position: relative; top: -1.375rem">
-<div><img style="width: 6.5rem" src=logo-symbol.svg></div>
-<div style="margin: .75rem 0"><img style="width: 6.5rem" src=logo-wordmark.svg></div>
-</div>
-<div style="float: left; width: 23rem; margin-left: 3rem">
-<p style="margin-top: .25rem">Nexus is a blockchain R&D firm specializing<br> in <a href=https://github.com/nexusdev>building developer tools for Ethereum</a>.</p>
-<p>We are the creators of <a href=https://github.com/nexusdev/dapple>Dapple</a>, <a href=https://dappsys.info>Dappsys</a> and <a href=http://dapphub.io>DappHub</a> and the developers of <a href=https://makerdao.com>MakerDAO</a>.
+<link rel=stylesheet href=https://fonts.googleapis.com/css?family=Catamaran:300,600>
 
-<p style="margin-top: 1.5rem" align=right>
-  <span style="margin-right: .75rem">
-  <a href=https://dapphub.chat style="border-bottom: none">
-    <i class="fa fa-2x fa-commenting-o"></i>
-  </a>
-  </span>
-  <span style="margin-right: .75rem">
-  <a href=mailto:contact@nexusdev.us style="border-bottom: none">
-    <i class="fa fa-2x fa-envelope-o"></i>
-  </a>
-  </span>
-</div>
+<style>
+* { margin: 0; }
+html { font: 300 12pt/1.7em Catamaran, sans-serif; }
+article { padding: 1rem; }
+* + p { margin: 1rem 0 0; }
+a { color: #6660a0; font-weight: bold; text-decoration: none; }
+a:hover { color: red }
+
+@media (min-width: 1024px) {
+  html       { font-size: 20pt; }
+  article    { max-width: 23.5em; margin: 10% auto 0; }
+  p:first-child { text-align: justify }
+.logo-symbol { position: absolute; left: -10em; top: -3.5em; width: 9em; font-size: 1rem; }
+  body { background: url(img/nexus-symbol-bg.svg) no-repeat 100% 100%; background-size: 37rem; }
+  <!-- <img src=img/nexus-symbol.svg style="position: absolute; left: -1.5em; top: -5.5em; width: 15em; font-size: 3rem; opacity: .2; z-index: -1"> -->
+
+}
+</style>
+
+<article style="position: relative">
+
+<p><img class=logo-symbol style="display: block; margin-bottom: 1rem"
+  src=img/nexus-symbol.svg><img style="width: 8em; font-size: 1rem;
+  vertical-align: -15%; margin-right: .4rem"
+  src=img/nexus-wordmark.svg alt=Nexus> <span style="font-size:
+  125%; line-height: 1.5; font-weight: 400">is a blockchain R&D firm specializing in the Ethereum
+  tech stack.</span>
+
+  <!-- <img src=img/nexus-symbol.svg style="position: absolute; left: -1.5em; top: -5.5em; width: 15em; font-size: 3rem; opacity: .2; z-index: -1"> -->
+  
+  <p align=justify> We build decentralized technologies such as
+  <a href=https://makerdao.com> Maker</a> (the stablecoin DAO),
+  powerful devtools including <a href=https://github.com/nexusdev/dapple>
+  Dapple</a>, as well as high-quality smart contract systems like <a
+  href=https://dappsys.info> Dappsys</a>.
+
+  <p align=justify> We also offer consulting services &mdash; both for
+  traditional enterprises as well as for decentralized organizations.
+  
+  <style>
+  ul { text-align: center; list-style-type: none; margin-top: 1rem }
+  li { float: right; margin: .5rem }
+  </style>
+  <ul>
+  <li><a href=mailto:contact@nexusdev.us>
+    <i class="fa fa-2x fa-envelope-o"></i></a>
+  <li><a href=https://dapphub.chat>
+    <i class="fa fa-2x fa-commenting-o"></i></a>
+  </ul>
+</article>
